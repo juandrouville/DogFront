@@ -1,0 +1,21 @@
+.filter{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.filter button{
+    background-color: rgb(241, 162, 15);
+    border: none;
+    padding:10px;
+    margin:8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s;
+    font-weight: 600;
+    color:white;
+}
+
+.filter button:hover{
+    transform: translateY(-0.2rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}

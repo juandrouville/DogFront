@@ -1,0 +1,27 @@
+.pagination{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.pagination button{
+    background: none;
+    border: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(83, 82, 82);
+    margin:15px;
+    cursor: pointer;
+}
+
+.pagination button:hover{
+    border-bottom: solid 3px rgb(83, 82, 82);
+}

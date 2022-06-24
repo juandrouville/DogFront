@@ -1,0 +1,57 @@
+.card{
+    width: 330px;
+    height:400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow:hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.card img{
+    width: 330px;
+    height: 220px;
+}
+
+.card h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    border-bottom: solid 3px black;
+}
+
+.card .temperaments{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.card .temperaments h5{
+    
+    margin: 4px 6px;
+    background-color:rgb(252, 187, 24);
+    border-radius: 5px;
+    padding: 2px 5px 4px 5px;
+}
+
+.card .temperaments .link{
+    text-decoration: none;
+    color: black;
+}
+
+.card .temperaments h5:hover{
+    background-color: rgb(238, 175, 17);
+}
+    
+
+    
+    
+    
+    
+    
